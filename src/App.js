@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Header />
       <Main>
-        <Section id="hero">
+        <Section id="hero" textAlign="center">
           <Hero />
         </Section>
         <Section id="diagram">

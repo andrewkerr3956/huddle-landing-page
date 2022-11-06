@@ -1,8 +1,12 @@
+import styled, {css} from 'styled-components';
+
+const MainLayout = styled.main`
+    padding: 0 80px;
+`;
+
 const Main = ({children}) => {
     return (
-        <main>
-            {children}
-        </main>
+        <MainLayout>{children}</MainLayout>
     )
 }
 
