@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const SectionStyles = styled.section`
 display: block;
-margin: 0 120px 0 120px;
-text-align: ${props => props.textAlign ? props.textAlign : "left"}
+text-align: ${props => props.textAlign ? props.textAlign : "left"};
+padding: ${props => props.padding ? props.padding : "0"};
 `;
 
 const Section = (props) => {

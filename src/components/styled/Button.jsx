@@ -7,8 +7,9 @@ const Button = styled.button`
     color: ${props => props.primary ? "#FFFFFF" : StyleVars.colors.pink}};
     padding: ${props => props.padding ? props.padding : "0px"};
     border-radius: ${props => props.borderRadius ? props.borderRadius : "20px"};
-    fontFamily: ${props => props.fontFamily ? props.fontFamily : "Poppins"}
-    fontWeight: ${props => props.fontWeight ? (props.fontWeight >= 400 && props.fontWeight <= 700 ? props.fontWeight : "400") : "400"};    
+    font-family: ${props => props.fontFamily ? props.fontFamily : "Poppins"};
+    font-weight: ${props => props.fontWeight ? (props.fontWeight >= 400 && props.fontWeight <= 700 ? props.fontWeight : "400") : "400"};
+    box-shadow: ${props => props.boxShadow ? (props.primary ? "0px 6px 13px rgba(0, 37, 46, 0.223053)" : "box-shadow: 0px 0px 9px rgba(255, 82, 193, 0.218778)" ) : "none"};   
 `;
 
 export default Button;

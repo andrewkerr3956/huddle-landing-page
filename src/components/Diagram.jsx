@@ -5,7 +5,7 @@ import Flexbox from './styled/Flexbox';
 
 const Diagram = (props) => {
     return (
-        <Flexbox align="center" width="50%" style={{padding: '0 100px'}}>
+        <Flexbox style={{padding: "0 200px"}} align="center" justify="space-between">
             <figure>
                 <img src={CommunitiesIcon} />
                 <figcaption>

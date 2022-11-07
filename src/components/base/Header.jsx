@@ -5,7 +5,7 @@ import Button from '../styled/Button';
 const HeaderLayout = styled.header`
     box-sizing: border-box;
     background: #ffffff;
-    padding: 78px 63px 0 80px;
+    margin: 78px 63px 0 80px;
     display: flex;
     display: -ms-flexbox;
     flex-flow: row nowrap;
@@ -21,7 +21,7 @@ const Header = () => {
     return (
         <HeaderLayout>
             <img src={Logo} alt="Huddle Logo" />
-            <Button padding={"9px 30px"}>Try It Free</Button>
+            <Button padding="9px 30px" boxShadow>Try It Free</Button>
         </HeaderLayout>
     )
 };
