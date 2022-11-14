@@ -1,7 +1,7 @@
 import styled, {css} from 'styled-components';
 
 const MainLayout = styled.main`
-    padding: 0 80px;
+    width: 100%;
 `;
 
 const Main = ({children}) => {

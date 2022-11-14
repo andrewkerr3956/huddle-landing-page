@@ -4,7 +4,8 @@ import StyleVars from '../../assets/style-vars';
 const Flexbox = styled.div`
     display: flex;
     display: -ms-flexbox;
-    ${props => props.auto ? 'flex: 1; -webkit-flex: 1;' : null}
+    ${props => props.auto ? 'flex: 1;' : null}
+    ${props => props.flex ? `flex: ${props.flex};` : null}
     flex-flow: ${props => props.direction ? props.direction : "row"} ${props => props.wrap ? props.wrap : "nowrap"};
     -ms-flex-flow: ${props => props.direction ? props.direction : "row"} ${props => props.wrap ? props.wrap : "nowrap"};
     width: ${props => props.width ? props.width : "100%"};
